@@ -1,0 +1,104 @@
+.thanhdo{
+
+}
+
+.thanhdo-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #4ba5de;
+    border-top: 3px solid #4ba5de;
+    z-index: 9999;
+}
+
+.thanhdo-footer a{
+    width: 20%;
+    float: left;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px 0;
+    color: #4ba5de;
+    border-right: 1px solid rgb(248, 246, 246);
+}
+
+.thanhdo-footer a:last-of-type{
+    border-right: 0;
+}
+
+.thanhdo-footer a:hover{
+    color: $color;
+}
+
+.thanhdo-footer a:hover, .thanhdo-footer a:visited{
+    text-decoration: none;
+}
+
+.thanhdo-footer a i{
+    margin-right: 4px;
+    font-size: 18px;
+}
+
+.thanhdo-footer a img{
+    height: 15px;
+    margin-right: 4px;
+}
+
+.thanhdo-footer a:nth-child(1) i{color: silver;}
+.thanhdo-footer a:nth-child(3) i{color: #1d59d5;}
+.thanhdo-footer a:nth-child(4) i{color: #607a80;}
+
+.thanhdo-footer a img.zalo{
+    height: 17px;
+    margin-bottom: 2px;
+}
+
+.thanhdo-footer a img.hotline{
+    transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    margin-bottom: 3px;
+    margin-right: 0;
+    height: 18px;
+}
+
+.thanhdo-footer a span{
+    color: red;
+    font-weight: 700;
+}
+
+/*thanhdo-main*/
+.thanhdo-main{
+    position: fixed;
+    bottom: 20%;
+    right: 2px;
+    width: 200px;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    z-index: 100;
+}
+
+.thanhdo-main li{
+    margin-bottom: 10px;
+    text-align: right;
+    width: 100%;
+}
+
+.thanhdo-main li a{ padding: 11px 13px 13px 0; transition: all 0.6s 0s ease-in; color: white;}
+.thanhdo-main li a img{border-right: 2px solid white; height: 40px; margin-bottom: 1px; margin-right: 9px;}
+
+.thanhdo-main li:nth-child(1) a {margin-right: -156px; background-color: #607a80;}
+.thanhdo-main li:nth-child(2) a {margin-right: -87px; background-color: #008fe5;}
+.thanhdo-main li:nth-child(3) a {margin-right: -134px; background-color: #1d58d4;}
+.thanhdo-main li:nth-child(4) a {margin-right: -81px; background-color: #77b3d4;}
+.thanhdo-main li a:hover { margin-right: 0;}
+
+@media only screen and (max-width : 1920px){
+    .thanhdo-footer{display: none;}
+}
+
+@media only screen and (max-width : 768px){
+    .thanhdo-main{display: none;}
+    #scrollUp{display: none!important;} 
+}
