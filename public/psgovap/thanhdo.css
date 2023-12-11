@@ -7,8 +7,8 @@
     bottom: 0;
     width: 100%;
     background-color: white;
-    border-bottom: 1px solid #4ba5de;
-    border-top: 3px solid #4ba5de;
+    border-bottom: 1px solid #156771;
+    border-top: 3px solid #156771;
     z-index: 9999;
 }
 
@@ -19,7 +19,7 @@
     text-align: center;
     line-height: 20px;
     padding: 10px 0;
-    color: #4ba5de;
+    color: #156771;
     border-right: 1px solid rgb(248, 246, 246);
 }
 
